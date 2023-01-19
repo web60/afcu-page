@@ -1,16 +1,7 @@
 <?php
-/**
- * DO NOT SELL THIS SCRIPT ! 
- * DO NOT CHANGE COPYRIGHT !
- * icq & telegram = @CO_DEAD
- 
-###############################################
-#$            Coded by CO-DEAD               $#
-#$  Adding backdoor won't  make you a Coder  $#
-#$          Copyright 2022 AFCU              $#
-###############################################
 
-**/
+
+
 
 // ================================= //
 	/*  Send Result To Email */

